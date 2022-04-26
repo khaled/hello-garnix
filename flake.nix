@@ -9,6 +9,7 @@
       };
       in pkgs.stdenv.mkDerivation {
           name = "hello-garnix";
+          src = ./.;
 
           unpackPhase = ":";
 
